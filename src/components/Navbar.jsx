@@ -8,7 +8,7 @@ export const Navbar = () => {
     <nav className="navbar">
       <div className="nav-center">
         <div className="nav-header">
-          <img src={logo} className="nav-logo" alt="backroads" />
+          <img src={logo} className="nav-logo" alt="backroads" style={{width: '150 px', height: '50px'}}/>
           <button type="button" className="nav-toggle" id="nav-toggle">
             <i className="fas fa-bars"></i>
           </button>
